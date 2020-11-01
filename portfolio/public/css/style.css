@@ -312,8 +312,9 @@ figure figcaption {
 }
 #colorlib-hero .flexslider .slides li {
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: bottom center;
+  /* background-size: cover; */
+  background-size: 100% 100%;
   min-height: 400px;
   position: relative;
 }

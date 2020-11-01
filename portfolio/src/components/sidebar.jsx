@@ -16,7 +16,6 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
               <h1 id="colorlib-logo"><a href="index.html">Schlienger Christophe</a></h1>
-              <span className="email"><i className="icon-mail"></i>christophalpha@yahoo.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -42,20 +41,28 @@ export default class Sidebar extends Component {
                 <li>
                   <a href="https://github.com/ChristopheCyber" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a>
                 </li>
-                {/*
-                 <li>
-                   <a href="FB" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a>
-                 </li>
-                */}
+                <li>
+                  <a href="https://www.facebook.com/highspi/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2"></i></a>
+                </li>
               </ul>
             </nav>
             <div className="colorlib-footer">
+              <span className="email">
+                <i className="icon-mail"></i>
+                {'\u00A0'}christophalpha@yahoo.com
+              </span>
+              <br/>
               <p>
                 <small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and
-                  <i className="icon-beer" aria-hidden="true"></i><br></br>
+                  Made with {'\u00A0'}
+                  <i className="icon-coffee" aria-hidden="true"></i>
+                  {'\u00A0'} & {'\u00A0'}
+                  <i className="icon-watch" aria-hidden="true" />
+                  {'\u00A0'} on {'\u00A0'}
+                  <i className="icon-monitor" aria-hidden="true" />
+                  <br></br>
                   {/* Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration  */}
-				          Something coming soon !!
+				          More coming {':)'}
                 </small>
               </p>
             </div>

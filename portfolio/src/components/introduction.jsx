@@ -8,7 +8,10 @@ export default class Introduction extends Component {
           <div className="flexslider js-fullheight">
             <ul className="slides">
               <li style={
-                { backgroundImage: 'url(images/Rings25fps6s04.gif)' }
+                {
+                  backgroundImage: 'url(images/Rings25fps6s04.gif)',
+                  // backgroundSize:"cover"
+                }
               }>
                 {/*
                <video className='videoTag' autoPlay loop muted>
@@ -34,7 +37,10 @@ export default class Introduction extends Component {
                 </div>
               </li>
               <li style={
-                { backgroundImage: 'url(images/Rings25fps6s04.gif)' }
+                {
+                  backgroundImage: 'url(images/Rings25fps6s04.gif)',
+                  backgroundSize: 'stretch'
+                }
               }>
                 <div className="overlay" />
                 <div className="container-fluid">
