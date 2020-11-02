@@ -47,16 +47,31 @@ p {
   margin-bottom: 1.5em;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #000;
+h1, h2, h3, h4, h5, h6 {
+  font-size: 26px;
+  color: rgb(0, 255, 19);
+  text-shadow: 2px 2px 1px #eb0000;
   font-family: "Playfair Display", Georgia, serif;
-  font-weight: 400;
   margin: 0 0 30px 0;
+}
+.colorlib-skills h3 {
+  padding: 2px 0 2px 0;
+  background-color: #000000;
+  width: 100px;
+  text-align: center;
+  border: solid 1px rgb(0, 255, 19);
+  border: solid 1.5px #02e2fc;
+  border-radius: 20px;
+}
+.progress-wrap span {
+  padding: 0 0 2px 0;
+  background-color: #000000;
+  width: 85px;
+  font-size: 14px;
+  text-shadow: .5px .5px 0px #ffffff;
+  text-align: center;
+  border: solid 1px #02e2fc;
+  border-radius: 20px;
 }
 
 figure {
@@ -112,15 +127,15 @@ figure figcaption {
   background-image: linear-gradient(
     150deg,
     #000 0%,
-    #0c30fa 10%,
+    #08ccde 10%,
     #000 20%,
-    #0c30fa 30%,
+    #08ccde 30%,
     #000 40%,
     #0c30fa 50%,
     #000 60%,
     #0c30fa 70%,
     #000 80%,
-    #0c30fa 90%
+    #08ccde 90%
   );
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -307,6 +322,9 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  background: 
+  url(../images/CyberKeyboard.jpg) round bottom center;
+  background-size: 100%;
 }
 @media screen and (max-width: 768px) {
   #colorlib-main {
@@ -520,6 +538,44 @@ body.offcanvas .colorlib-nav-toggle {
   clear: both;
   width: 100%;
   display: block;
+  color: #07ff25;
+  text-shadow: 1px 1.5px 1px #9C27B0;
+}
+.colorlib-experience-background,
+.colorlib-skills-background,
+.colorlib-education-background,
+.colorlib-blog-background,
+.colorlib-work-background,
+.colorlib-about-background,
+.colorlib-services-background,
+.colorlib-contact-background  {
+  background: 
+  url(../images/CyberConnections.jpg) no-repeat top center; 
+  background-size: cover;
+}
+.colorlib-experience-background2,
+.colorlib-skills-background2,
+.colorlib-work-background2,
+.colorlib-about-background2 {
+  background: 
+  url(../images/circle_image491120_lg.png) no-repeat center center; 
+  background-size: cover;
+}
+.colorlib-experience-background3,
+.colorlib-about-background3,
+.colorlib-skills-background3,
+.colorlib-work-background3 {
+  background: 
+  url(../images/2020-10-03_19h09_55.jpg) no-repeat center center; 
+  background-size: cover;
+}
+.colorlib-experience-background4,
+.colorlib-about-background4,
+.colorlib-skills-background4,
+.colorlib-work-background4 {
+  background: 
+  url(../images/CyberFutureD.jpg) no-repeat center center; 
+  background-size: cover;
 }
 @media screen and (max-width: 768px) {
   .colorlib-experience,

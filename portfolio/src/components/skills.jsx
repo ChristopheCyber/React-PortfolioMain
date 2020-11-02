@@ -4,7 +4,7 @@ export default class Skills extends Component {
 	render() {
 		return (
 			<div>
-				<section className="colorlib-skills" data-section="skills">
+				<section className="colorlib-skills colorlib-skills-background2" data-section="skills">
 					<div className="colorlib-narrow-content">
 						<div className="row">
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">

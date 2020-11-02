@@ -4,7 +4,7 @@ export default class Timeline extends Component {
   render() {
     return (
       <div>
-        <section className="colorlib-experience" data-section="timeline">
+        <section className="colorlib-experience colorlib-experience-background" data-section="timeline">
           <div className="colorlib-narrow-content">
             <div className="row">
               <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -22,9 +22,11 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>IT specialist<span> 2000 - 2015</span></h2>
-                        <p>parag text 1.</p>
-                        <p>parag text 2.</p>
-                          </div>
+                        <p>IT specialist</p>
+                        {/*
+                         <p>parag text 2.</p>
+                         */}
+                      </div>
                     </div>
                   </article>
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
@@ -34,12 +36,14 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Front End Web Developer<span> 2019-2020</span></h2>
-                        <p>parag text 1.</p>
-                        <p>parag text 2.</p>
-                          </div>
+                        <p>Front End Web Developer</p>
+                        {/*
+                         <p>parag text 2.</p>
+                        */}
+                      </div>
                     </div>
                   </article>
-                 {/*  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  {/*  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
                         <i className="icon-pen2" />
