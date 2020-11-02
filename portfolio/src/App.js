@@ -6,6 +6,7 @@ import About from './components/about'
 import Timeline from './components/timeline'
 //import Blog from './components/blog'
 import Skills from './components/skills'
+import Projects from './components/projects'
 
 class App extends Component {
 	render() {
@@ -14,9 +15,10 @@ class App extends Component {
 				<div id="container-wrap">
 					<Sidebar />
 					<div id="colorlib-main">
-						<Introduction></Introduction>
+						<Introduction />
 						<About />
 						<Skills />
+						<Projects />
 						<Timeline />
 						{ /*<Blog></Blog> */}
 					</div>
