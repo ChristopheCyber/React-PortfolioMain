@@ -32,7 +32,7 @@ export default class About extends Component {
                         </div>
                         <div className="row row-pt-md">
                             <div className="col-md-4 text-center animate-box">
-                                <div className="services color-1">
+                                <div className="services color-4">
                                     <span className="icon">
                                         <i className="icon-data" />
                                     </span>
@@ -44,9 +44,9 @@ export default class About extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 text-center animate-box">
-                                <div className="services color-6">
+                                <div className="services color-1">
                                     <span className="icon">
-                                        <i className="icon-monitor" />
+                                        <i className="icon-bulb" />
                                     </span>
                                     <div className="desc">
                                         <h3>Other complementary IT skills</h3>
@@ -55,9 +55,9 @@ export default class About extends Component {
                                 </div>
                             </div>
                             <div className="col-md-4 text-center animate-box">
-                                <div className="services color-4">
+                                <div className="services color-6">
                                     <span className="icon">
-                                        <i className="icon-bulb" />
+                                        <i className="icon-monitor" />
                                     </span>
                                     <div className="desc">
                                         <h3>Other skills and hobbies</h3>
