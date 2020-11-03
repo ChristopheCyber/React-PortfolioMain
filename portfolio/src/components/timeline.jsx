@@ -25,7 +25,7 @@ export default class Timeline extends Component {
                         <p>
                           Updated and oriented my skills towards Front-End development.
                           Specialized on React framework.
-                          Following MOOC trainings mainly on OpenClassrooms both in French & English and Udemy / ZTM in English.
+                          Following MOOC trainings mainly on OpenClassrooms both in French & English and on Udemy / ZTM in English.
                         </p>
                       </div>
                     </div>
