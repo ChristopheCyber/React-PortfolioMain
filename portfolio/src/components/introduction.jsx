@@ -25,9 +25,9 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>
-                            Welcome on my Portfolio<br /><br />
+                            Welcome on my Portfolio,<br /><br />
                             {'\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0'}
-                            I'm Christophe Schlienger
+                            I'm Christophe S.
                           </h1>
                           {/*  <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/15coSa2rnZcdywihM-pWTvoGqE65JAkxQAh6JDBNrF2Q/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p> */}
                         </div>
@@ -49,7 +49,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I'm an IT specialist<br /><br />
+                            I'm an IT specialist,<br /><br />
                             {'\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0'}
                             Front-End developer
                           </h1>
@@ -69,10 +69,10 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>Continuously learning
+                          <h1>Continuously learning,
                           <br /><br />
                             {'\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0'}
-                            and developing my skills
+                            developing my skills
                            </h1>``
                           {/*  <p><a className="btn btn-primary btn-learn" href="https://auth.geeksforgeeks.org/user/anuupadhyay/articles" target="_blank" rel="noopener noreferrer">View Blog <i className="icon-book" /></a></p> */}
                         </div>

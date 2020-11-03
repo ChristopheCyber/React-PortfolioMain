@@ -131,11 +131,12 @@ figure figcaption {
     #000 20%,
     #08ccde 30%,
     #000 40%,
-    #0c30fa 50%,
+    #737882 50%,
     #000 60%,
-    #0c30fa 70%,
+    #737882 70%,
     #000 80%,
     #08ccde 90%
+    /* #0c30fa 90% */
   );
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -550,7 +551,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-services-background,
 .colorlib-contact-background  {
   background: 
-  url(../images/CyberConnections.jpg) no-repeat top center; 
+  url(../images/CyberEngineA.jpg) no-repeat center center; 
   background-size: cover;
 }
 .colorlib-experience-background2,
@@ -558,7 +559,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-work-background2,
 .colorlib-about-background2 {
   background: 
-  url(../images/circle_image491120_lg.png) no-repeat center center; 
+  url(../images/CyberEngineB.png) no-repeat center center; 
   background-size: cover;
 }
 .colorlib-experience-background3,
@@ -566,15 +567,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-skills-background3,
 .colorlib-work-background3 {
   background: 
-  url(../images/2020-10-03_19h09_55.jpg) no-repeat center center; 
-  background-size: cover;
-}
-.colorlib-experience-background4,
-.colorlib-about-background4,
-.colorlib-skills-background4,
-.colorlib-work-background4 {
-  background: 
-  url(../images/CyberFutureD.jpg) no-repeat center center; 
+  url(../images/CyberEngineC.jpg) no-repeat center center; 
   background-size: cover;
 }
 @media screen and (max-width: 768px) {
@@ -1286,7 +1279,11 @@ body.offcanvas .colorlib-nav-toggle {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2c98f0;
+  /* background: #5af02c; */
+  background: 
+  url(../images/CyberFutureD.jpg) no-repeat center center; 
+  /* url(../images/CyberEngineI.jpg) no-repeat center center;  */
+  background-size: cover;
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -1374,14 +1371,29 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .project:hover .desc {
   opacity: 1;
+  color:#4cff05;
+  text-shadow: 1px 1.5px 1px #ff0000;
 }
 .project:hover .desc h3 {
+  padding: 3% 0 0 0;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  color:#4cff05;
+  text-shadow: 1px 1.5px 1px #ff0000;
 }
 .project:hover .desc span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  color:#4cff05;
+  text-shadow: 1px 1.5px 1px #ff0000;
+}
+.project:hover .desc h3 a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  font-size: 15px;
+  text-decoration: underline;
+  color:#ecff41;
+  text-shadow: 1px 1.5px 1px #ff0303;
 }
 
 .btn-load-more {
