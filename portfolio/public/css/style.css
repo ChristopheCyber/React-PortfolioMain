@@ -1427,7 +1427,6 @@ body.offcanvas .colorlib-nav-toggle {
 /* transform: scale(1.08); */
 transform: translate3d(15px,3px,0) scale3d(1.08,1.08,1.08) rotateX(0deg) rotateY(0deg) rotate(0deg) skew(0deg,0deg);
 }
-}
 
 .btn-load-more {
   width: 100%;

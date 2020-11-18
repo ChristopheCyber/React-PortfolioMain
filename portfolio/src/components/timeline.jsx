@@ -23,9 +23,7 @@ export default class Timeline extends Component {
                       <div className="timeline-label">
                         <h2>Front End Web Developer<br /><span> 2019-2020</span></h2>
                         <p>
-                          Updated and oriented my skills towards Front-End development.
-                          Specialized on React framework.
-                          Following MOOC trainings mainly on OpenClassrooms both in French & English and on Udemy / ZTM in English.
+                          Updated and oriented my skills towards Front-End development. Specialized on React framework. Following MOOC trainings mainly on OpenClassrooms both in French & English and on Udemy / ZTM in English.
                         </p>
                       </div>
                     </div>
@@ -37,9 +35,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Discretionary Trader-Programmer<br /><span> 2014 - 2018</span></h2>
-                        <p>Developing scrips for Automated Forex Trading / Algorithmic Trading.
-                        Programming and testing with ActFX & MetaQuotes Language MQL4/5.
-                        Discretionary trading on ActTrader platform.
+                        <p>Developing scrips for Automated Forex Trading / Algorithmic Trading. Programming and testing with ActFX & MetaQuotes Language MQL4/5. Discretionary trading on ActTrader platform.
                         </p>
                       </div>
                     </div>
@@ -50,10 +46,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>IT specialist<br /><span> 1999 - 2015</span></h2>
-                        <p>Trained from 1999 in programmation on IBM Mainframes environment mainly in COBOL II.
-                        Working on large scale Applications in different teams for important companies such as Banks ( Credit-Mutuel, France ), Automotive ( PSA ) and Transport/delivery ( DHL ) industries.
-                        Mostly on Mainframe MVS, OS/390 IBM, IMS DB2, SQL, JCL, Batch, transaction monitoring development with CICS 3270, DL1, VB ACCESS project, HTML ...
+                        <h2>IT specialist<br /><span> 1999 - 2009</span></h2>
+                        <p>Trained from 1999 in programmation on IBM Mainframes environment mainly in COBOL II. Working on large scale Applications in different teams for important companiessuch as Banks ( Credit-Mutuel, France ), Automotive ( PSA ) and Transport/delivery ( DHL ) industries. Mostly on Mainframe MVS, OS/390 IBM, IMS DB2, SQL, JCL, Batch,transaction monitoring development with CICS 3270, DL1, VB ACCESS project, HTML ...
                         </p>
                       </div>
                     </div>
@@ -71,7 +65,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
-                  {/*  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                  {/*  <article className="timeline-entry pull-left animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
                         <i className="icon-pen2" />
