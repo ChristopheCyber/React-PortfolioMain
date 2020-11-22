@@ -15,7 +15,7 @@ export default class Projects extends Component {
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 								<div className="project" style={{ backgroundImage: 'url(images/projCards.jpg)' }}>
-									<div className="desc">
+									<div className="desc proj1">
 										<div className="con">
 											<span>Project 1: React Website page</span>
 											<h3>Link : <br /><br />
@@ -32,7 +32,7 @@ export default class Projects extends Component {
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
 								<div className="project" style={{ backgroundImage: 'url(images/projCalcul.jpg)' }}>
-									<div className="desc">
+									<div className="desc proj2">
 										<div className="con">
 											<span>Project 2: JS Website page</span>
 											<h3>Link : <br /><br />
@@ -49,7 +49,7 @@ export default class Projects extends Component {
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
 								<div className="project" style={{ backgroundImage: 'url(images/projEcomm.jpg)' }}>
-									<div className="desc">
+									<div className="desc proj3">
 										<div className="con">
 											<span>Project 3: React Full E-commerce Website</span>
 											<h3>Link : {'\u00A0'}
@@ -65,10 +65,27 @@ export default class Projects extends Component {
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{ backgroundImage: 'url(images/projBook.jpg)' }}>
-									<div className="desc">
+								<div className="project" style={{ backgroundImage: 'url(images/projPong.jpg)' }}>
+									<div className="desc proj4">
 										<div className="con">
-											<span>Project 4: this React Portfolio</span>
+											<span>Project 4: JS Website page</span>
+											<h3>Link : <br /> <br />
+												<a href="https://christophecyber.github.io/JS-Vanilla-PingPong/" target="_blank" rel="noreferrer">
+													Ping-Pong / Space Game in JS Vanilla
+												</a>
+											</h3>
+											<span>
+												Pure Vanilla JavaScript project creating and manipulating Canvas API for graphic Game. Ping-Pong game of Visitor vs Computer playing with elementary AI algorithm. 'Space / Universe' design.
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+								<div className="project" style={{ backgroundImage: 'url(images/projBook.jpg)' }}>
+									<div className="desc proj5">
+										<div className="con">
+											<span>Project 5: this React Portfolio</span>
 											<h3>Link : <br /> <br />
 												<a href="work.html">
 													React Portfolio page <br /> (where you are)
@@ -87,8 +104,8 @@ export default class Projects extends Component {
 									<div className="desc">
 										<div className="con">
 											<h3>{/*<a href="work.html">Project 5: In construction</a>*/}
-											Project 5: In construction</h3>
-											<span>JS Vanilla project</span>
+											Project 6: In development: writing tests with JEST</h3>
+											<span>React Jest project</span>
 										</div>
 									</div>
 								</div>

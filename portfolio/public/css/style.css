@@ -1313,6 +1313,32 @@ body.offcanvas .colorlib-nav-toggle {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+.project .desc.proj1{
+  background: 
+  url(../images/projCards1.jpg) no-repeat center center; 
+  background-size: cover;
+}
+.project .desc.proj2{
+  background: 
+  url(../images/projCalcul1.jpg) no-repeat center center; 
+  background-size: cover;
+}
+.project .desc.proj3{
+  background: 
+  url(../images/projEcomm1.jpg) no-repeat center center; 
+  background-size: cover;
+}
+.project .desc.proj4{
+  background: 
+  url(../images/projPong1.jpg) no-repeat center center; 
+  background-size: cover;
+}
+.project .desc.proj5{
+  background: 
+  url(../images/projBook1.jpg) no-repeat center center; 
+  background-size: cover;
+}
+
 .project .desc .con {
   padding: 20px;
   display: block;

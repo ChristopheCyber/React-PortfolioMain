@@ -38,7 +38,7 @@ export default class About extends Component {
                                     </span>
                                     <div className="desc">
                                         <h3>Technical Knowledge</h3>
-                                        <p>JavaScript, HTML5, CSS3, Sass, REACT.js, JSX, Redux, Git, Github, Php, Java, Firebase, Firestore, Stripe, Ajax, npm, yarn, Heroku, Bootstrap, ...
+                                        <p>JavaScript, HTML5, CSS3, Sass, REACT.js, JSX, Redux, Jest, Git, Github, Php, Java, Firebase, Firestore, Stripe, Ajax, npm, yarn, Heroku, Bootstrap, ...
                                         </p>
                                     </div>
                                 </div>
