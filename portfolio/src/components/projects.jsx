@@ -69,7 +69,7 @@ export default class Projects extends Component {
 									<div className="desc proj4">
 										<div className="con">
 											<span>Project 4: JS Website page</span>
-											<h3>Link : <br /> <br />
+											<h3>Link : <br /> 
 												<a href="https://christophecyber.github.io/JS-Vanilla-PingPong/" target="_blank" rel="noreferrer">
 													Ping-Pong / Space Game in JS Vanilla
 												</a>

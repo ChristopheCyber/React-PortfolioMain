@@ -1333,6 +1333,12 @@ body.offcanvas .colorlib-nav-toggle {
   url(../images/projPong1.jpg) no-repeat center center; 
   background-size: cover;
 }
+.project .desc.proj4 span:nth-of-type(1){
+  margin-top: 8px;
+}
+.project .desc.proj4 span:nth-of-type(2){
+  margin-bottom: 30px;
+}
 .project .desc.proj5{
   background: 
   url(../images/projBook1.jpg) no-repeat center center; 
