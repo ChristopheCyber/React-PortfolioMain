@@ -24,7 +24,8 @@ export default class Projects extends Component {
 												</a>
 											</h3>
 											<span>
-												A little React App done with CRA, including selective search possibility among a set of cards representing different IT skills. Integrated a TypeScript API through NPM with react-tsparticles for dynamic colorful background.
+												A little React App done with CRA, selective search among a set of cards representing different IT skills. Integrated a TypeScript API through NPM with react-tsparticles for dynamic colorful background.
+												Redux/Reducers in connected Components. Unit Tests & Snapshots with Jest / ENZYME.
 											</span>
 										</div>
 									</div>

@@ -43,6 +43,9 @@ export default class Sidebar extends Component {
                   <a href="https://www.linkedin.com/in/christophe-schlienger-04164a1a8/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a>
                 </li>
                 <li>
+                  <a href="https://christophecyber.github.io/CV_new/" target="_blank" rel="noopener noreferrer"> CV <i className="icon-file"></i></a>
+                </li>
+                <li>
                   <a href="https://github.com/ChristopheCyber" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a>
                 </li>
                 <li>
