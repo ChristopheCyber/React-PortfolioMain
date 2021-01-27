@@ -116,6 +116,26 @@ export default class Skills extends Component {
 									</div>
 								</div>
 							</div>
+							<div className="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+								<div className="progress-wrap">
+									<h3>TypeScript</h3>
+									<div className="progress">
+										<div className="progress-bar color-6" role="progressbar" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{ width: '40%' }}>
+											<span>{'( basics )'}</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-md-6 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+								<div className="progress-wrap">
+									<h3>Hooks, Redux</h3>
+									<div className="progress">
+										<div className="progress-bar color-1" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{ width: '50%' }}>
+											<span>{'( average )'}</span>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</section>
